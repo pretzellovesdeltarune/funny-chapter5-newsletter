@@ -30,24 +30,23 @@
             text-align: center;
         }
 
-        .header {
-            border-bottom: 4px double #ffffff;
-            padding-bottom: 20px;
-            margin-bottom: 30px;
-        }
-
-        .title-img {
-            max-width: 100%;
+        .header-img {
+            max-width: 85%; 
             height: auto;
             display: block;
-            margin: 0 auto;
+            margin: 0 auto 50px auto;
         }
 
-        .start-img {
+        .start-anim {
             max-width: 100%;
             height: auto;
             display: block;
             margin: 0 auto 25px auto;
+            image-rendering: pixelated;
+        }
+
+        .text-content {
+            padding: 0 40px; 
         }
 
         p {
@@ -88,11 +87,13 @@
         
         <img src="assets/images/header.png" alt="DELTARUNE Status Update" class="header-img">
 
-        <p>... It's Summer.</p>
+        <div class="text-content">
+            <p>... It's Summer.</p>
 
-        <img src="assets/images/start.gif" alt="First Image" class="start-anim">
+            <img src="assets/images/start.gif" alt="First Image" class="start-anim">
 
-        <p>Man. Is it just me or is it getting hot out here?</p>
+            <p>Man. Is it just me or is it getting hot out here?</p>
+        </div>
 
     </div>
 
